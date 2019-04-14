@@ -340,9 +340,9 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 .content-slot{
-  padding: 10px 0px;
+  padding: 0px 0px;
   p{
-    padding: 0px 30px;
+
     text-align: justify;
     @media(min-width: 300px) and (max-width: 600px){
       padding: 0px 10px;
@@ -381,7 +381,8 @@ h1,h2,h3,h4,h5,h6{
         }
       }
       .card-content{
-
+        font-size: 14px;
+        padding: 10px !important;
       }
     }
   }
@@ -427,7 +428,7 @@ border-radius: 5px; }
   padding: 0px 40px;
 }
 form{
-  padding: 71px 0px;
+  padding: 82px 0px;
   @media (max-width: 500px){
     padding: 15px 0px;
   }
@@ -604,28 +605,17 @@ form{
 }
 .quote-img{
   overflow: hidden;
-  .left-quote{
-    @media (min-width: 1000px){
-      clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-    }
-    img{
-      @media (min-width: 1000px){
-        padding-left: 20px;
-      }
-    }
-  }
-  .right-quote{
-    text-align: center;
-    @media (min-width: 1000px){
-      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    }
-    img{
-      @media (min-width: 1000px){
-        padding-right: 38px;
-      }
-    }
-  }
   img{
     height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
+}
+#banner{
+  background-image: url('https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/collaboration.jpg');
+  background-repeat: no-repeat;
+}
+.banner2{
+  background-image: url('./assests/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg') !important;
+  background-repeat: no-repeat;
 }

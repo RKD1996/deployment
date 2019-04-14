@@ -1,6 +1,7 @@
-<!DOCTYPE html>
 <html>
+
 <head>
+  <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="./css/materialize.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="./assests/logo.png">
@@ -8,9 +9,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="master.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
-<body>
+
+<body class="">
   <div class="navbar bdr">
     <div class="navtabs bdr center"><a href="index.html"><img class="nav-img" src="./assests/logo.png" alt=""></a></div>
     <div class="hidden-nav">
@@ -31,132 +33,200 @@
       <span class="light-bdr"><a href="./contact.html">CONTACT</a></span>
     </div>
   </div>
-  <div class="parallex-container">
-    <div class="parallax">
-      <img class="responsive-img" width="100%" height="520px" src="https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/collaboration.jpg" alt="">
-    </div>
-  </div>
-  <div class="row" style="margin-top: 30px;">
-    <div class="col l6 s12">
-      <div class="home-content-slot">
-        <h3 style="font-weight: bold;">What we are all about?</h3>
-        <p>We intend to be one of the largest franchise holders in the East and we plan to make significant investments in the coming years to nurture this business and take it to its maximum  potential.</p>
-        <p>The food service industry in India is over Rs. 25,000 crores and Relentless Brands LLP sees a tremendous opportunity in this fast growing business.</p>
-      </div>
-    </div>
-    <div class="col l6 s12 home-content-slot-img">
-      <img class="responsive-img" src="./assests/pic02.jpg" alt="">
-    </div>
-  </div>
-  <h3 style="text-align: center; font-weight: bold;">Our Motto</h3>
-  <div class="row content" style="margin: 0px;">
-    <div class="col l4 s12">
-      <div class="home">
-        <img class="responsive-img" src="./assests/one.jpg" alt="">
-        <div class="home-content">
-          <h5><i class="fas fa-quote-left"></i>To Be The Brand Leader In Our Category.<i class="fas fa-quote-right"></i></h5>
-        </div>
-      </div>
-    </div>
-    <div class="col l4 s12" >
-      <div class="w3-content w3-section content" style="max-width:100%; margin: 0px;">
-        <div class="mySlides home">
-          <img class="responsive-img" src="./assests/3.jpg" alt="">
-          <div class="home-content">
-            <h5><i class="fas fa-quote-left"></i>To Engender Customer Loyalty.<i class="fas fa-quote-right"></i></h5>
+  <div id="page-wrapper">
+    <section id="banner">
+    </section>
+    <section id="three" class="wrapper">
+      <div class="inner">
+        <header class="major alt">
+          <h2>Relentless</h2></header>
+          <section class="posts">
+            <article><span class="image"><img class="responsive-img"  src="./assests/pic02.jpg" alt=""></span>
+              <div class="content">
+                <p>We intend to be one of the largest franchise holders in the East and we plan to make significant investments in the coming years to nurture this business and take it to its maximum  potential.The food service industry in India is over Rs. 25,000 crores and Relentless Brands LLP sees a tremendous opportunity in this fast growing business.</p>
 
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
+      <section id="two" class="wrapper style1 special">
+        <div class="inner">
+          <h3 style="tetx-align: center;">OUR MOTTO</h3>
+          <ul class="features" style="    font-size: 20px;    font-weight: bold;    padding-top: 12px;">
+            <li>
+              <p><i class="fas fa-quote-left"></i>To Be The Brand Leader In Our Category.<i class="fas fa-quote-right"></i></p>
+            </li>
+            <li>
+              <p><i class="fas fa-quote-left"></i>To Engender Customer Loyalty.<i class="fas fa-quote-right"></i></p>
+            </li>
+            <li>
+              <p><i class="fas fa-quote-left"></i>To Offer Great Food At The Best Value.<i class="fas fa-quote-right"></i></p>
+            </li>
+            <li>
+              <p><i class="fas fa-quote-left"></i>To Provide Outstanding Customer Service.<i class="fas fa-quote-right"></i></p>
+            </li>
+            <li>
+              <p><i class="fas fa-quote-left"></i>To Be The Customer's First Choice.<i class="fas fa-quote-right"></i></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="three" class="wrapper">
+        <div class="inner">
+          <header class="major alt">
+            <h3>OUR APPROACH</h3></header>
+            <section class="posts">
+              <article><span class="image"><img src="images/pic01.jpg" alt=""></span>
+                <div class="content">
+                  <p style="text-align: left;">Customer satisfaction, product and service excellence are the pillars of the food service industry globally . Our overall approach is to grow profitably through continuous employee engagement and excellence in execution. Being in a highly people centric industry, we believe in maximising employee potential and aim to achieve best in class standards in customer satisfaction.
+                    Relentless Brands value system is firmly based on simple understanding that</p>
+                    <p style="text-align: center; font-size: 15px;">“<b>We WORK together, GROW together and WIN together as a TEAM.</b>”</p>
+                  </div>
+                </article>
+              </section>
+            </div>
+          </section>
+
+        </div>
+        <script>
+          (function($) {
+            var $window = $(window),
+            $body = $('body'),
+            $header = $('#header'),
+            $banner = $('#banner');
+            breakpoints({
+              xlarge: ['1281px', '1680px'],
+              large: ['981px', '1280px'],
+              medium: ['737px', '980px'],
+              small: ['481px', '736px'],
+              xsmall: ['361px', '480px'],
+              xxsmall: [null, '360px']
+            });
+            $window.on('load', function() {
+              window.setTimeout(function() {
+                $body.removeClass('is-preload');
+              }, 100);
+            });
+            $('.scrolly').scrolly({
+              offset: function() {
+                return $header.height();
+              }
+            });
+            if ($banner.length > 0 && $header.hasClass('alt')) {
+              $window.on('resize', function() {
+                $window.trigger('scroll');
+              });
+              $banner.scrollex({
+                bottom: $header.outerHeight(),
+                terminate: function() {
+                  $header.removeClass('alt');
+                },
+                enter: function() {
+                  $header.addClass('alt');
+                },
+                leave: function() {
+                  $header.removeClass('alt');
+                }
+              });
+            }
+            var $menu = $('#menu');
+            $menu._locked = false;
+            $menu._lock = function() {
+              if ($menu._locked) return false;
+              $menu._locked = true;
+              window.setTimeout(function() {
+                $menu._locked = false;
+              }, 350);
+              return true;
+            };
+            $menu._show = function() {
+              if ($menu._lock()) $body.addClass('is-menu-visible');
+            };
+            $menu._hide = function() {
+              if ($menu._lock()) $body.removeClass('is-menu-visible');
+            };
+            $menu._toggle = function() {
+              if ($menu._lock()) $body.toggleClass('is-menu-visible');
+            };
+            $menu.appendTo($body).on('click', function(event) {
+              event.stopPropagation();
+              $menu._hide();
+            }).find('.inner').on('click', '.close', function(event) {
+              event.preventDefault();
+              event.stopPropagation();
+              event.stopImmediatePropagation();
+              $menu._hide();
+            }).on('click', function(event) {
+              event.stopPropagation();
+            }).on('click', 'a', function(event) {
+              var href = $(this).attr('href');
+              event.preventDefault();
+              event.stopPropagation();
+              $menu._hide();
+              window.setTimeout(function() {
+                window.location.href = href;
+              }, 350);
+            });
+            $body.on('click', 'a[href="#menu"]', function(event) {
+              event.stopPropagation();
+              event.preventDefault();
+              $menu._toggle();
+            }).on('keydown', function(event) {
+              if (event.keyCode == 27) $menu._hide();
+            });
+          })(jQuery);
+        </script>
+        <div class="footer black" style="position: relative; bottom: 0; width:100%;">
+          <div class="row">
+            <div class="col l6">
+              <div class="footer-link" style="  display: flex; flex-direction: row; justify-content: center;">
+                <div style="margin: 0px 10px;"><a style="color: white;" href="../index.html">HOME</a></div>
+                <div style="margin: 0px 10px;"><a style="color: white;" href="./about_us.html">ABOUT US</a></div>
+                <div style="margin: 0px 10px;"><a style="color: white;" href="./brand.html">BRANDS</a></div>
+                <div style="margin: 0px 10px;"><a style="color: white;" href="./gallery.html">GALLERY</a></div>
+                <div style="margin: 0px 10px;"><a style="color: white;" href="./contact.html">CONTACT</a></div>
+              </div>
+            </div>
+            <div class="col l4" style="display: none;">
+              <div class="social-icons">
+
+              </div>
+            </div>
+            <div class="col l6" style="text-align: center;">
+              <span style="color:white;">©Copyright 2019. Relentless Brands LLP. All Rights Reserved.</span>
+            </div>
           </div>
         </div>
-        <div class="mySlides home">
-          <img class="responsive-img" src="./assests/4.jpg" alt="">
-          <div class="home-content">
-            <h5><i class="fas fa-quote-left"></i>To Offer Great Food At The Best Value.<i class="fas fa-quote-right"></i></h5>
+        <script>
+          var myIndex = 0;
+          carousal();
 
-          </div>
-        </div>
-        <div class="mySlides home">
-          <img class="responsive-img" src="./assests/5.jpg" alt="">
-          <div class="home-content">
-            <h5><i class="fas fa-quote-left"></i>To Provide Outstanding Customer Service.<i class="fas fa-quote-right"></i></h5>
+          function carousal() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousal, 2000); // Change image every 2 seconds
+          }
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138226287-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col l4 s12" >
-      <div class="home">
-        <img class="responsive-img" src="./assests/two.jpg" alt="">
-        <div class="home-content">
-          <h5><i class="fas fa-quote-left"></i>To Be The Customer's First Choice.<i class="fas fa-quote-right"></i></h5>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="content-slot cpd" style="text-align: center; ">
-    <div class="" >
-      <h4 style="font-weight: bold;">OUR APPROACH</h4>
-      <p style="text-align: center;">Customer satisfaction, product and service excellence are the pillars of the food service industry globally . Our overall approach is to grow profitably through continuous employee engagement and excellence in execution. Being in a highly people centric industry, we believe in maximising employee potential and aim to achieve best in class standards in customer satisfaction.
-        Relentless Brands value system is firmly based on simple understanding that</p>
-        <p style="text-align: center; font-size: 15px;">“<b>We WORK together, GROW together and WIN together as a TEAM.</b>”</p>
-    </div>
-    </div>
-    <div class="parallex-container2">
-      <div class="parallax">
-        <!-- <div class="parallax-text">
-        <div class="parallax-text-title">Meet With Our Team</div>
-        <div class="parallax-text-desc">We Bring The Best Mind in This Field To You</div>
-      </div> -->
-    </div>
-  </div>
-  <div class="footer black" style="position: relative; bottom: 0; width:100%;">
-    <div class="row">
-      <div class="col l6">
-        <div class="footer-link" style="  display: flex; flex-direction: row; justify-content: center;">
-          <div style="margin: 0px 10px;"><a style="color: white;" href="../index.html">HOME</a></div>
-          <div style="margin: 0px 10px;"><a style="color: white;" href="./about_us.html">ABOUT US</a></div>
-          <div style="margin: 0px 10px;"><a style="color: white;" href="./brand.html">BRANDS</a></div>
-          <div style="margin: 0px 10px;"><a style="color: white;" href="./gallery.html">GALLERY</a></div>
-          <div style="margin: 0px 10px;"><a style="color: white;" href="./contact.html">CONTACT</a></div>
-        </div>
-      </div>
-      <div class="col l4" style="display: none;">
-        <div class="social-icons">
+          gtag('config', 'UA-138226287-1');
+        </script>
 
-        </div>
-      </div>
-      <div class="col l6" style="text-align: center;">
-        <span style="color:white;">©Copyright 2019. Relentless Brands LLP. All Rights Reserved.</span>
-      </div>
-    </div>
-  </div>
-  <script>
-  var myIndex = 0;
-carousal();
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init1.js"></script>
+      </body>
 
-function carousal() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousal, 2000); // Change image every 2 seconds
-}
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138226287-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-138226287-1');
-</script>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init1.js"></script>
-</body>
-</html>
+      </html>

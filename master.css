@@ -445,11 +445,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-slot {
-  padding: 10px 0px;
+  padding: 0px 0px;
 }
 
 .content-slot p {
-  padding: 0px 30px;
   text-align: justify;
 }
 
@@ -505,6 +504,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+.content-slot .value-slot .card .card-content {
+  font-size: 14px;
+  padding: 10px !important;
+}
+
 .hover-card:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
@@ -554,7 +558,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 form {
-  padding: 71px 0px;
+  padding: 82px 0px;
 }
 
 @media (max-width: 500px) {
@@ -823,34 +827,18 @@ form .btn-submit {
   overflow: hidden;
 }
 
-@media (min-width: 1000px) {
-  .quote-img .left-quote {
-    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-  }
-}
-
-@media (min-width: 1000px) {
-  .quote-img .left-quote img {
-    padding-left: 20px;
-  }
-}
-
-.quote-img .right-quote {
-  text-align: center;
-}
-
-@media (min-width: 1000px) {
-  .quote-img .right-quote {
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  }
-}
-
-@media (min-width: 1000px) {
-  .quote-img .right-quote img {
-    padding-right: 38px;
-  }
-}
-
 .quote-img img {
   height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#banner {
+  background-image: url("https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/collaboration.jpg");
+  background-repeat: no-repeat;
+}
+
+.banner2 {
+  background-image: url("./assests/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg") !important;
+  background-repeat: no-repeat;
 }
