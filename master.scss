@@ -394,7 +394,8 @@ h1,h2,h3,h4,h5,h6{
 border-radius: 5px; }
 }
 .about-content-slot{
-  padding: 0px 45px;
+  padding: 0px 5px;
+  line-height: 36px;
   text-align: center;
   @media (max-width: 600px){
     padding: 0px 19px;
@@ -600,4 +601,31 @@ form{
     background-image: url('./assests/bg_body.jpg');
     background-size: cover;
     background-position: top center;
+}
+.quote-img{
+  overflow: hidden;
+  .left-quote{
+    @media (min-width: 1000px){
+      clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    }
+    img{
+      @media (min-width: 1000px){
+        padding-left: 20px;
+      }
+    }
+  }
+  .right-quote{
+    text-align: center;
+    @media (min-width: 1000px){
+      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    }
+    img{
+      @media (min-width: 1000px){
+        padding-right: 38px;
+      }
+    }
+  }
+  img{
+    height: 350px;
+  }
 }
