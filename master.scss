@@ -311,7 +311,7 @@ h1,h2,h3,h4,h5,h6{
 
 .footer{
   border-top: 1px solid lightgrey;
-  padding: 20px 0px;
+  padding: 0px 0px;
   position: absolute;
    bottom: 0;
     width: 100%;
@@ -617,5 +617,9 @@ form{
 }
 .banner2{
   background-image: url('./assests/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg') !important;
+  background-repeat: no-repeat;
+}
+.banner3{
+  background-image: url('./assests/172569.jpg') !important;
   background-repeat: no-repeat;
 }
